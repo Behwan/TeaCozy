@@ -1,0 +1,144 @@
+html {
+    background-color: black;
+    opacity: 0.9;
+}
+
+
+* {
+    color: seashell;
+    font-family: Helvetica;
+}
+
+.header{
+    display: flex;
+    height: 69px;
+    border-bottom: solid 1px seashell;
+    width: 100%;
+    margin: auto;
+    
+}
+
+.header h1 {
+    padding-left: 10px;
+    color: seashell;
+    font-size: 30px;
+}
+
+.header nav {
+    margin-left: auto;
+}
+
+.header li {
+    display: inline-flex;
+    padding: 10px;
+    text-decoration: underline;
+} 
+
+
+.header a {
+    color: seashell;
+}
+
+.rowone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teajar {
+    height: 700px;
+}
+
+.crossheader {
+    width: 1200px;
+    height: 100px;
+    position:absolute;
+    background-color: black;
+    color: white;
+    margin: auto;
+    text-align:center;
+}
+
+.teaMonth {
+    margin-top: 70px;
+    padding-top: 0px;
+    text-align: center;
+    height: 100px;
+}
+
+.teatypes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+}
+
+
+.teapic img {
+    height: 200px;
+    width: 300px;
+    padding: 10px
+}
+
+.teapic {
+    text-align: center;
+}
+
+.locations {
+    flex-grow: 1;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-grow: 2;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+.locations img {
+    z-index: 1;
+    height: 500px;
+    width: 1200px;
+}
+
+.square {
+    z-index: 2;
+    position: relative;
+    bottom: 400px;
+    display: flex;
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    flex-flow: column;
+    margin: auto;
+  }
+
+  .square h3, p {
+    text-align: center;
+    margin: auto;
+    justify-items: center;
+  }
+
+.footer {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.copyright p {
+    text-align: left;
+    padding: 20px;
+
+}
+
+
+
+
+
